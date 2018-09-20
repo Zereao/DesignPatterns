@@ -1,0 +1,11 @@
+*.class
+target/
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+.svn/
+/document/
+/out/
+sdklog/
