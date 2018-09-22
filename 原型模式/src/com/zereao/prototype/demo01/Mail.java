@@ -1,6 +1,8 @@
 package com.zereao.prototype.demo01;
 
 /**
+ * 《设计模式之禅》中的范例
+ *
  * @author Zereao
  * @version 2018/09/21  23:44
  */
