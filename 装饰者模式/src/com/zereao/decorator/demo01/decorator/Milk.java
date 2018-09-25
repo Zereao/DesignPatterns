@@ -4,7 +4,7 @@ import com.zereao.decorator.demo01.AbstractBeverage;
 import com.zereao.decorator.demo01.AbstractCondimentDecorator;
 
 /**
- * @author 何雨伦
+ * @author Zereao
  * @version 2018/09/13  17:10
  */
 public class Milk extends AbstractCondimentDecorator {
