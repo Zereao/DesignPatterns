@@ -6,7 +6,7 @@ package com.zereao.proxy.demo01;
  * @author Zereao
  * @version 2018/09/25  20:13
  */
-public class GamePlayerProxy implements IGamePlayer {
+public class GamePlayerProxy implements IGamePlayer, IProxy {
     private IGamePlayer gamePlayer;
 
     /**
@@ -30,5 +30,10 @@ public class GamePlayerProxy implements IGamePlayer {
     @Override
     public void upgrade() {
         this.gamePlayer.upgrade();
+    }
+
+    @Override
+    public void count() {
+        System.out.println("费用总共是：150元");
     }
 }
