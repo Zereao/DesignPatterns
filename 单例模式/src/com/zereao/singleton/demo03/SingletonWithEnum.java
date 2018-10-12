@@ -8,6 +8,9 @@ package com.zereao.singleton.demo03;
  */
 public class SingletonWithEnum {
     private enum Singleton {
+        /**
+         *
+         */
         INSTANCE;
         private SingletonWithEnum singletonWithEnum;
 
